@@ -1,5 +1,5 @@
 
-fetch('/pages/pages.json')
+fetch('/webtes_news/pages/pages.json')
   .then(response => response.json())
   .then(pages => {
     let navbar = '<nav><ul>';
